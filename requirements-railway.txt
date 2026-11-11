@@ -1,0 +1,5 @@
+# Hybrid server dependencies (mirrors python/opendataloader-pdf/pyproject.toml [hybrid] extra)
+opendataloader-pdf[hybrid]>=2.5,<3
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
